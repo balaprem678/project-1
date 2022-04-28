@@ -1,4 +1,4 @@
-/* #div1{
+#div1{
   float: left;
   height: 100%;
   width: 500px;
@@ -19,7 +19,7 @@ h1{
   margin: 30px 0px 30px 0px;
 }
 .personalinfo ul{
-  font-size: 37px;
+  font-size: 35px;
     line-height: 2;
     margin-top: 18px;
 }
@@ -48,6 +48,9 @@ h1{
     font-size: 22px;
 }
 
+#div12{
+  display: none;
+}
 
 #div2{
   background-color: #fff;
@@ -123,7 +126,11 @@ h1{
 }
 .contact{
   background-color: beige;
-  padding: 20px 0px;
+  padding: 20px 60px;
+  margin-left: -85px;
+    margin-right: -30px;
+    margin-bottom: -30px;
+
 }
 .count1 label{ 
   float: left;
@@ -134,21 +141,21 @@ h1{
 input,
 select,
 textarea{
-  width: 72%;
+  width: 75%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin: -16px 0 23px 180px;
+    margin: -10px 0 23px 180px;
 }
 select{
-  width: 72%;
+  width: 75%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 20px;
-  margin: 0px 0 23px 97px;
+  margin: 0px 0 23px 102px;
 }
 .submit{
   text-align: center;
@@ -164,4 +171,4 @@ button{
     font-style: normal;
     font-family: auto;
     margin: 40px 0;
-} */
+}
