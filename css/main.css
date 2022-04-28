@@ -1,0 +1,152 @@
+#div1{
+  float: left;
+  height: 100%;
+  width: 500px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ccc;
+  overflow-x: hidden;
+  padding-top: 20px; 
+}
+.leftpage{
+  display: inline-block;
+  margin: 68px 34px;
+}
+h1{
+  font-size: 40px;
+  margin: 0px 0px 30px 0px;
+}
+.personalinfo ul{
+  font-size: 37px;
+    line-height: 2;
+    margin-top: 18px;
+}
+.personalinfo ul li{
+  list-style: none;
+}
+.personalinfo a{
+  color: black;
+    text-decoration: none;
+}
+.skills h6{
+  font-size: 36px;
+  margin: 31px 7px 0px 0;
+}
+.software1{
+  margin: 36px 0 0 0;
+}
+.software1 h2,
+.languages h2{
+  font-size: 35px;
+}
+.software1 h3,
+.languages h3{
+  text-align: end;
+    margin: 39px 0 0 0;
+    font-size: 22px;
+}
+
+
+#div2{
+  background-color: #fff;
+  width: 67%;
+  float: right;
+  margin: 0 auto;
+}
+.div12{
+  margin: 30px;
+}
+.cirnam{
+  display: flex;
+}
+.circle{
+  background: #1f1f71;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  margin: 45px 0 0 0;
+}
+.circle p{
+  margin: 20px 0 0 70px;
+}
+.circle i{
+  color: white;
+    font-size: 50px;
+    margin: 70px 0 0 3px;
+}
+.name{
+  margin: 0px 0px 0px 20px;
+}
+.name h1{
+  font-size: 75px;
+}
+.name h2{
+  margin-top: -25px;
+  font-size: 50px;
+}
+.para p{
+  font-size: 30px;
+  margin: 0 0px;
+  display: inline-block;
+}
+.exp1,
+.edu1{
+  display: flex;
+  font-size: 20px;
+}
+.exp1 p,
+.edu1 p{
+  font-size: 30px;
+}
+.exp1{
+  font-size: 35px;
+}
+.exp1 li,
+.edu1 ul li{
+  font-size: 30px;
+  margin: 0px 0px 0px 30px;
+}
+.edu1 strong{
+  font-size: 35px;
+}
+.edu1 ul{
+  margin: 27px 70px 25px 50px;
+}
+.count1 label{ 
+  float: left;
+}
+input,
+select,
+textarea{
+  width: 65%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: -16px 0 23px 180px;
+}
+select{
+  width: 65%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: -16px 0 23px 126px;
+}
+.submit{
+  text-align: center;
+}
+button{
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 25px;
+    font-style: normal;
+    font-family: auto;
+    margin: 40px 0;
+}
