@@ -561,11 +561,7 @@
   }
   .skills h6{
     font-size: 19px;
-    
     font-weight: 100;
-  }
-  .software1{
-    
   }
   .software1 h2,
   .languages h2{
@@ -576,12 +572,8 @@
     
       font-size: 15px;
   }
-  
-  
   #div2{
     background-color: #fff;
-  
-    margin: 0 auto;
   }
   .container1{
     margin-left: 50px;
@@ -695,5 +687,3 @@
   }
    
 }
-
-
