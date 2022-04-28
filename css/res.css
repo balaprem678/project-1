@@ -1,9 +1,9 @@
-@media screen and (min-width: 1440px)
+@media screen and (max-width: 1024px)
 {
   #div1{
     float: left;
     height: 100%;
-    width: 800px;
+    width: 400px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -17,11 +17,11 @@
     margin: 68px 34px;
   }
   h1{
-    font-size: 100px;
+    font-size: 40px;
     margin: 30px 0px 30px 0px;
   }
   .personalinfo ul{
-    font-size: 37px;
+    font-size: 28px;
       line-height: 2;
       margin-top: 18px;
   }
@@ -33,15 +33,16 @@
       text-decoration: none;
   }
   .skills h6{
-    font-size: 36px;
+    font-size: 32px;
     margin: 31px 7px 0px 0;
+    font-weight: 100;
   }
   .software1{
     margin: 36px 0 0 0;
   }
   .software1 h2,
   .languages h2{
-    font-size: 35px;
+    font-size: 30px;
   }
   .software1 h3,
   .languages h3{
@@ -57,6 +58,9 @@
     float: right;
     margin: 0 auto;
   }
+  .container1{
+    margin-left: 50px;
+  }
   .div12{
     margin: 30px;
   }
@@ -68,7 +72,7 @@
     border-radius: 50%;
     width: 175px;
     height: 175px;
-    margin: 0;
+    margin: 16px 16px 30px 0px;
   }
   .circle p{
     margin: 20px 0 0 70px;
@@ -79,64 +83,80 @@
       margin: 70px 0 0 3px;
   }
   .name{
-    margin: 0px 0px 0px 20px;
+    margin: 25px 0px 0px 20px;
   }
   .name h1{
-    font-size: 75px;
+    font-size: 47px;
   }
   .name h2{
     margin-top: -25px;
-    font-size: 50px;
+    font-size: 42px;
   }
   .para p{
-    font-size: 30px;
+    font-size: 25px;
     margin: 0 0px;
     display: inline-block;
   }
   .exp1,
   .edu1{
     display: flex;
-    font-size: 35px;
-    margin: 30px 30px;
+    font-size: 20px;
   }
   .exp1 p,
   .edu1 p{
     font-size: 30px;
+    margin: 30px 0px 0px 0px;
+  }
+  .exp1{
+    font-size: 35px;
   }
   .exp1 li,
   .edu1 ul li{
-    font-size: 30px;
+    font-size: 25px;
     margin: 0px 0px 0px 30px;
   }
+  .exp1 ul{
+    margin: 0px 0px 40px 40px;
+  }
   .edu1 strong{
-    font-size: 35px;
+    font-size: 30px;
   }
   .edu1 ul{
     margin: 27px 70px 25px 50px;
   }
   .contact{
-    background-color: #ababcd;
+    background-color: beige;
+    padding: 20px 20px;
+    margin-left: -18px;
+    margin-right: -28px;
+  }
+  .contact h1{
+    font-size: 40px;
   }
   .count1 label{ 
     float: left;
   }
+  .user1, .mail1, .phone1, label{
+    font-size: 25px;
+  }
   input,
+  select,
   textarea{
-    width: 78%;
+    width: 65%;
       padding: 12px;
       border: 1px solid #ccc;
       border-radius: 4px;
       box-sizing: border-box;
-      margin: -16px 0 23px 157px;
+      margin: -16px 0 23px 180px;
   }
   select{
-    width: 78%;
+    width: 65%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin: 0px 0 25px 105px;
-    font-size: 25px;
+    font-size: 20px;
+    margin: 0px 0 23px 180  px;
   }
   .submit{
     text-align: center;
@@ -149,9 +169,190 @@
     border-radius: 4px;
     cursor: pointer;
     font-size: 25px;
-    font-style: normal;
-    font-family: auto;
-    margin: 40px 0;
+      font-style: normal;
+      font-family: auto;
+      margin: 40px 0;
+  }
+   
+}
+
+
+@media screen and (max-width: 768px)
+{
+  #div1{
+    float: left;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ccc;
+    overflow-x: hidden;
+    margin-top: -35px;
+  }
+  .leftpage{
+    display: inline-block;
+    margin: 68px 34px;
+  }
+  h1{
+    font-size: 35px;
+    margin: 30px 0px 30px 0px;
+  }
+  .personalinfo ul{
+    font-size: 19px;
+      line-height: 2;
+      margin-top: 18px;
+  }
+  .personalinfo ul li{
+    list-style: none;
+  }
+  .personalinfo a{
+    color: black;
+      text-decoration: none;
+  }
+  .skills h6{
+    font-size: 25px;
+    margin: 31px 7px 0px 0;
+    font-weight: 100;
+  }
+  .software1{
+    margin: 36px 0 0 0;
+  }
+  .software1 h2,
+  .languages h2{
+    font-size: 22px;
+  }
+  .software1 h3,
+  .languages h3{
+    text-align: end;
+      margin: 39px 0 10px 0;
+      font-size: 18px;
   }
   
+  
+  #div2{
+    background-color: #fff;
+    width: 67%;
+    float: right;
+    margin: 0 auto;
+  }
+  .container1{
+    margin-left: 50px;
+  }
+  .div12{
+    margin: 30px;
+  }
+  .cirnam{
+    display: flex;
+  }
+  .circle{
+    background: #1f1f71;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 16px 16px 30px 0px;
+  }
+  .circle p{
+    margin: 20px 0 0 58px;
+  }
+  .circle i{
+    color: white;
+    font-size: 35px;
+    margin: 55px 0 0 0px;
+  }
+  .name{
+    margin: 25px 0px 0px 0px;
+  }
+  .name h1{
+    font-size: 33px;
+  }
+  .name h2{
+    margin-top: -25px;
+    font-size: 28px;
+  }
+  .para p{
+    font-size: 20px;
+    margin: 0 0px;
+    display: inline-block;
+  }
+  .exp1,
+  .edu1{
+    display: flex;
+    font-size: 20px;
+  }
+  .exp1 p,
+  .edu1 p{
+    font-size: 25px;
+    margin: 30px 0px 0px 0px;
+  }
+  .exp1{
+    font-size: 35px;
+  }
+  .exp1 li,
+  .edu1 ul li{
+    font-size: 20px;
+    margin: 0px 0px 0px 30px;
+  }
+  .exp1 ul{
+    margin: 0px 0px 40px 40px;
+  }
+  .edu1 strong,
+  .exp1 strong{
+    font-size: 25px;
+  }
+  .edu1 ul{
+    margin: 33px -41px 26px 0px;
+  }
+  .contact{
+    background-color: beige;
+    padding: 5px 15px;
+    margin-left: -33px;
+    margin-right: -40px;
+    margin-bottom: -28px;
+  }
+  .contact h1{
+    font-size: 40px;
+  }
+  .count1 label{ 
+    float: left;
+  }
+  .user1, .mail1, .phone1, label{
+    font-size: 20px;
+  }
+  input,
+  select,
+  textarea{
+    width: 65%;
+      padding: 9px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin: -16px 0 23px 133px;
+  }
+  select{
+    width: 65%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: 0px 0 23px 180  133px;
+  }
+  .submit{
+    text-align: center;
+  }
+  button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+      font-style: normal;
+      font-family: auto;
+      margin: 40px 0;
+  }
+   
 }

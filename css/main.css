@@ -1,4 +1,4 @@
-#div1{
+/* #div1{
   float: left;
   height: 100%;
   width: 500px;
@@ -16,7 +16,7 @@
 }
 h1{
   font-size: 40px;
-  margin: 0px 0px 30px 0px;
+  margin: 30px 0px 30px 0px;
 }
 .personalinfo ul{
   font-size: 37px;
@@ -55,6 +55,9 @@ h1{
   float: right;
   margin: 0 auto;
 }
+.container1{
+  margin-left: 50px;
+}
 .div12{
   margin: 30px;
 }
@@ -66,7 +69,7 @@ h1{
   border-radius: 50%;
   width: 175px;
   height: 175px;
-  margin: 45px 0 0 0;
+  margin: 16px 16px 30px 0px;
 }
 .circle p{
   margin: 20px 0 0 70px;
@@ -99,6 +102,7 @@ h1{
 .exp1 p,
 .edu1 p{
   font-size: 30px;
+  margin: 30px 0px 0px 0px;
 }
 .exp1{
   font-size: 35px;
@@ -108,19 +112,29 @@ h1{
   font-size: 30px;
   margin: 0px 0px 0px 30px;
 }
+.exp1 ul{
+  margin: 0px 0px 40px 40px;
+}
 .edu1 strong{
   font-size: 35px;
 }
 .edu1 ul{
   margin: 27px 70px 25px 50px;
 }
+.contact{
+  background-color: beige;
+  padding: 20px 0px;
+}
 .count1 label{ 
   float: left;
+}
+.user1, .mail1, .phone1, label{
+  font-size: 25px;
 }
 input,
 select,
 textarea{
-  width: 65%;
+  width: 72%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -128,12 +142,13 @@ textarea{
     margin: -16px 0 23px 180px;
 }
 select{
-  width: 65%;
+  width: 72%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  margin: -16px 0 23px 126px;
+  font-size: 20px;
+  margin: 0px 0 23px 97px;
 }
 .submit{
   text-align: center;
@@ -149,4 +164,4 @@ button{
     font-style: normal;
     font-family: auto;
     margin: 40px 0;
-}
+} */
