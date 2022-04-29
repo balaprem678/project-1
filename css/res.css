@@ -1,5 +1,4 @@
-@media screen and (max-width: 1024px)
-{
+@media screen and (max-width: 1024px){
   #div1{
     float: left;
     height: 100%;
@@ -12,6 +11,10 @@
     overflow-x: hidden;
     padding-top: 20px; 
   }
+ #div123{
+   display: none;
+ }
+  
   .leftpage{
     display: inline-block;
     margin: 68px 34px;
@@ -61,7 +64,7 @@
     margin-left: 50px;
   }
   .div12{
-    margin: 30px 130px 0 30px;
+    margin: 30px 100px 0 30px;
   }
   .cirnam{
     display: flex;
@@ -85,11 +88,11 @@
     margin: 25px 0px 0px 20px;
   }
   .name h1{
-    font-size: 47px;
+    font-size: 40px;
   }
   .name h2{
     margin-top: -25px;
-    font-size: 42px;
+    font-size: 36px;
   }
   .para p{
     font-size: 25px;
@@ -115,19 +118,19 @@
     margin: 0px 0px 0px 30px;
   }
   .exp1 ul{
-    margin: 0px 0px 40px 40px;
+    margin: 27px 0px 40px 40px;
   }
   .edu1 strong{
     font-size: 30px;
   }
   .edu1 ul{
-    margin: 27px 70px 25px 50px;
+    margin: 31px -70px 16px -19px;
   }
   .contact{
     background-color: beige;
     padding: 20px 20px;
     margin-left: -18px;
-    margin-right: -28px;
+    margin-right: -9px;
   }
   .contact h1{
     font-size: 40px;
@@ -172,12 +175,10 @@
       font-family: auto;
       margin: 40px 0;
   }
-   
+
 }
 
-
-@media screen and (max-width: 768px)
-{
+@media screen and (max-width: 768px){
   #div1{
     float: left;
     height: 100%;
@@ -353,8 +354,8 @@
       margin: 40px 0;
   }
 }
-   @media screen and (max-width: 425px)
-{
+
+   @media screen and (max-width: 430px){
   #div1{
     float: left;
     height: 100%;
@@ -478,7 +479,7 @@
   .contact{
     background-color: beige;
     padding: 5px 15px;
-    margin-left: -3px;
+    margin-left: -12px;
     margin-right: -40px;
     margin-bottom: -28px;
   }
@@ -492,7 +493,7 @@
   input,
   select,
   textarea{
-    width: 95%;
+    width: 85%;
       padding: 9px;
       border: 1px solid #ccc;
       border-radius: 4px;
@@ -500,7 +501,7 @@
       margin: 10px 0px 15px 0px;
   }
   select{
-    width: 95%;
+    width: 85%;
     padding: 9px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -520,49 +521,60 @@
     font-size: 25px;
       font-style: normal;
       font-family: auto;
-      margin: 40px 0;
+      margin: 40px 0px 40px -37px;
   }
-   
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 320px){
   #div1{
     display: none;
   }
-  h1{
+  #div123{
+    display: block;
+    margin-left: 45px;
+    margin-bottom: 30px;
+  }
+  .div12 h1{
     font-size: 26px;
   }
-  .personalinfo ul{
-    font-size: 15px;
+  .personalinfo123 ul{
+    font-size: 20px;
+    line-height: 2;
+    margin: -20px 0 0 0;
   }
-  .personalinfo ul li{
+  .personalinfo123 ul li{
     list-style: none;
   }
-  .personalinfo a{
+  .personalinfo123 a{
     color: black;
       text-decoration: none;
+      margin-left: 10px;
   }
-  .skills h6{
+  .skills123 h6{
     font-size: 19px;
     font-weight: 100;
+    margin-bottom: 15px;
   }
-  .software1 h2,
-  .languages h2{
+  .software123 h2,
+  .languages123 h2{
     font-size: 17px;
   }
-  .software1 h3,
-  .languages h3{
-    
+  .software123 h3,
+  .languages123 h3{
+      text-align: end;
       font-size: 15px;
   }
   #div2{
     background-color: #fff;
-  }
+    margin: -20px -20px -23px 0;
+    padding: 0px 20px;
+}
   .container1{
     margin-left: 50px;
   }
+ 
   .div12{
-    margin: 0px 0px 0px 20px;
+    margin: 0px 20px 0px -127px;
   }
   .cirnam{
     display: flex;
@@ -595,16 +607,13 @@
   }
   .exp1,
   .edu1{
-    display: flex;
+    display: inline;
     font-size: 20px;
   }
   .exp1 p,
   .edu1 p{
     font-size: 20px;
     margin: 30px 0px 0px 0px;
-  }
-  .exp1{
-    font-size: 35px;
   }
   .exp1 li,
   .edu1 ul li{
@@ -619,18 +628,19 @@
     font-size: 15px;
   }
   .edu1 ul{
-    margin: 33px -41px 26px 0px;
+    margin: 15px -52px 0 0px;
+    padding: 0px 35px 0px 20px;
   }
   .contact{
     background-color: beige;
     padding: 5px 15px;
-    margin-left: -3px;
+    margin-left: -15px;
     margin-right: -40px;
     margin-bottom: -28px;
   }
   .contact h1{
     font-size: 26px;
-    margin: 0px 0px 20px 21px;
+    margin: 0px 0px 20px 0px;
   }
   .user1, .mail1, .phone1, label{
     font-size: 15px;
