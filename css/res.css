@@ -130,7 +130,7 @@
     background-color: beige;
     padding: 20px 20px;
     margin-left: -18px;
-    margin-right: -9px;
+    margin-right: -100px;
   }
   .contact h1{
     font-size: 40px;
@@ -145,7 +145,7 @@
   select,
   textarea{
     width: 65%;
-      padding: 12px;
+      padding: 8px;
       border: 1px solid #ccc;
       border-radius: 4px;
       box-sizing: border-box;
@@ -153,7 +153,7 @@
   }
   select{
     width: 65%;
-    padding: 12px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -226,7 +226,7 @@
   .software1 h3,
   .languages h3{
     text-align: end;
-      margin: 39px 0 10px 0;
+      margin: 20px 0 10px 0;
       font-size: 18px;
   }
   
@@ -298,7 +298,7 @@
   }
   .edu1 strong,
   .exp1 strong{
-    font-size: 25px;
+    font-size: 24px;
   }
   .edu1 ul{
     margin: 33px -41px 26px 0px;
@@ -450,13 +450,13 @@
   }
   .exp1,
   .edu1{
-    display: flex;
+    display: inline-block;
     font-size: 20px;
   }
   .exp1 p,
   .edu1 p{
     font-size: 20px;
-    margin: 30px 0px 0px 0px;
+    margin: 15px 0px 25px 0px;
   }
   .exp1{
     font-size: 35px;
@@ -493,7 +493,7 @@
   input,
   select,
   textarea{
-    width: 85%;
+    width: 100%;
       padding: 9px;
       border: 1px solid #ccc;
       border-radius: 4px;
@@ -501,7 +501,7 @@
       margin: 10px 0px 15px 0px;
   }
   select{
-    width: 85%;
+    width: 100%;
     padding: 9px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -563,6 +563,7 @@
   .languages123 h3{
       text-align: end;
       font-size: 15px;
+      margin-right: 30px;
   }
   #div2{
     background-color: #fff;
@@ -570,11 +571,16 @@
     padding: 0px 20px;
 }
   .container1{
-    margin-left: 50px;
+    margin: 0px 35px;
   }
  
   .div12{
-    margin: 0px 20px 0px -127px;
+    margin: 0px -15px 0px -125px;
+  }
+  .cirnam1{
+    background-color: black;
+    padding: 0 0 20px 25px;
+    color: #fff;
   }
   .cirnam{
     display: flex;
@@ -601,7 +607,7 @@
     font-size: 24px;
   }
   .para p{
-    font-size: 18px;
+    font-size: 20px;
     margin: 35px 0px 0 0px;
     display: inline-block;
   }
@@ -617,7 +623,7 @@
   }
   .exp1 li,
   .edu1 ul li{
-    font-size: 13px;
+    font-size: 16px;
     margin: 10px 0px 0px 20px;
   }
   .exp1 ul{
@@ -633,10 +639,10 @@
   }
   .contact{
     background-color: beige;
-    padding: 5px 15px;
-    margin-left: -15px;
-    margin-right: -40px;
-    margin-bottom: -28px;
+    padding: 15px;
+    margin-left: -16px;
+    margin-right: -36px;
+    margin-bottom: 20px;
   }
   .contact h1{
     font-size: 26px;
