@@ -1,3 +1,181 @@
+@media screen and (max-width: 1440px){
+  #div1{
+    float: left;
+    height: 100%;
+    width: 500px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ccc;
+    overflow-x: hidden;
+    padding-top: 20px; 
+  }
+ #div123{
+   display: none;
+ }
+  
+  .leftpage{
+    display: inline-block;
+    margin: 68px 34px;
+  }
+  h1{
+    font-size: 40px;
+    margin: 30px 0px 30px 0px;
+  }
+  .personalinfo ul{
+    font-size: 28px;
+      line-height: 2;
+      margin-top: 18px;
+  }
+  .personalinfo ul li{
+    list-style: none;
+  }
+  .personalinfo a{
+    color: black;
+      text-decoration: none;
+  }
+  .skills h6{
+    font-size: 32px;
+    margin: 31px 7px 0px 0;
+    font-weight: 100;
+  }
+  .software1{
+    margin: 36px 0 0 0;
+  }
+  .software1 h2,
+  .languages h2{
+    font-size: 30px;
+  }
+  .software1 h3,
+  .languages h3{
+    text-align: end;
+      margin: 39px 0 0 0;
+      font-size: 22px;
+  }
+
+  #div2{
+    background-color: #fff;
+    width: 67%;
+    float: right;
+    margin: 0 auto;
+  }
+  .container1{
+    margin-left: 50px;
+  }
+  .div12{
+    margin: 30px 100px 0 30px;
+  }
+  .cirnam{
+    display: flex;
+  }
+  .circle{
+    background: #1f1f71;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin: 16px 16px 30px 0px;
+  }
+  .circle p{
+    margin: 20px 0 0 55px;
+  }
+  .circle i{
+    color: white;
+      font-size: 40px;
+      margin: 70px 0 0 3px;
+  }
+  .name{
+    margin: 25px 0px 0px 20px;
+  }
+  .name h1{
+    font-size: 40px;
+  }
+  .name h2{
+    margin-top: -25px;
+    font-size: 36px;
+  }
+  .para p{
+    font-size: 25px;
+    margin: 0 0px;
+    display: inline-block;
+  }
+  .exp1,
+  .edu1{
+    display: flex;
+    font-size: 20px;
+  }
+  .exp1 p,
+  .edu1 p{
+    font-size: 30px;
+  }
+  .exp1{
+    font-size: 35px;
+  }
+  .exp1 li,
+  .edu1 ul li{
+    font-size: 25px;
+    margin: 0px 0px 0px 30px;
+  }
+  .exp1 ul{
+    margin: 25px 0px;
+    line-height: 35px;
+  }
+  .edu1 strong{
+    font-size: 30px;
+  }
+  .edu1 ul{
+    margin: 31px -70px 16px -19px;
+  }
+  .contact{
+    background-color: beige;
+    padding: 10px 50px;
+  }
+  .contact h1{
+    font-size: 40px;
+  }
+  .count1 label{ 
+    float: left;
+  }
+  .user1, .mail1, .phone1, label{
+    font-size: 25px;
+  }
+  input,
+  select,
+  textarea{
+    width: 65%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin: -16px 0 23px 180px;
+  }
+  select{
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: 0px 0 23px 180  px;
+  }
+  .submit{
+    text-align: center;
+  }
+  button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+      font-style: normal;
+      font-family: auto;
+      margin: 40px 0;
+  }
+
+}
+
 @media screen and (max-width: 1024px){
   #div1{
     float: left;
@@ -107,21 +285,24 @@
   .exp1 p,
   .edu1 p{
     font-size: 30px;
-    margin: 30px 0px 0px 0px;
   }
   .exp1{
     font-size: 35px;
   }
   .exp1 li,
   .edu1 ul li{
-    font-size: 25px;
+    font-size: 23px;
     margin: 0px 0px 0px 30px;
   }
   .exp1 ul{
     margin: 27px 0px 40px 40px;
   }
+  .exp1 strong{
+    margin: 0px 0px 0px 50px;
+    font-size: 35px;
+  }
   .edu1 strong{
-    font-size: 30px;
+    font-size: 23px;
   }
   .edu1 ul{
     margin: 31px -70px 16px -19px;
@@ -283,14 +464,13 @@
   .exp1 p,
   .edu1 p{
     font-size: 25px;
-    margin: 30px 0px 0px 0px;
   }
   .exp1{
     font-size: 35px;
   }
   .exp1 li,
   .edu1 ul li{
-    font-size: 20px;
+    font-size: 17px;
     margin: 0px 0px 0px 30px;
   }
   .exp1 ul{
@@ -406,7 +586,13 @@
       margin: 22px 15px 10px 0;
       font-size: 15px;
   }
-
+  .software1 p,
+.languages p{
+  text-align: end;
+    margin: 22px 0 0 0;
+    font-size: 15px;
+    font-weight: 800;
+}
   #div2{
     background-color: #fff;
     width: 67%;
@@ -575,7 +761,7 @@
   }
  
   .div12{
-    margin: 0px -15px 0px -125px;
+    margin: 0px -20px 0px -105px;
   }
   .cirnam1{
     background-color: black;
@@ -637,12 +823,21 @@
     margin: 15px -52px 0 0px;
     padding: 0px 35px 0px 20px;
   }
+  .micro span,
+.lang span{
+  display:block;
+  font-size: 20px;
+    margin: 10px 0;
+}
+.micro,
+.lang{
+  text-align: end;
+}
+
   .contact{
     background-color: beige;
     padding: 15px;
-    margin-left: -16px;
-    margin-right: -36px;
-    margin-bottom: 20px;
+    margin: 0px -36px;
   }
   .contact h1{
     font-size: 26px;
